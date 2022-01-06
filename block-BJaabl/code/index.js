@@ -3,10 +3,8 @@
 */
 
 function sayHello (name) {
-  return name;
+  alert(` Hello ${name1}`);
 }
-let name1 = sayHello(`Kushal`)
-alert(` Hello ${name1}`);
 
 /*
 2. Create a function named `getFullName` that accepts two parameter `firstName` and `lastName` and returns
@@ -104,10 +102,11 @@ function isLeapYear(year) {
 */
 
 function getFactorial (number) {
+  let final = 1
   for (let i = number; i >=1; i--) {
-  number *= i;
-  return number;
- }
+  final *= i;
+}
+return final;
 }
 
 
