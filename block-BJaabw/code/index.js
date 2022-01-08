@@ -28,7 +28,7 @@ isInRange(1, 10, 19); // false
 
 // - Write a Function Decleration for above problem
 function isInRange(lower, upper, number) {
-  if (lower < number && number < upper) {
+  if (number < lower && number < upper) {
     return "True";
   }
   else {
@@ -73,24 +73,6 @@ function calculateBMI(kg, m) {
     alert (`Enter a valid input`);
   }
 }
-
-
-  // switch (bmi) {
-    // case (bmi < 18.5) :
-    //   return "Underweight!";
-    //   break;
-    // case (bmi >= 18.5 && bmi <= 24.9) :
-    //   return "Normal Weight!" ;
-    //   break;
-    // case (bmi >= 25 && bmi <= 29.9) :
-    //   return "Overweight!" 
-    //   break;
-    // case (bmi >= 30) :
-    //   return "Obese!"
-    //   break;
-    // default :
-    //   return "Enter valid input";
-//   }
 
 /* 3. appropiateDrinks
 
